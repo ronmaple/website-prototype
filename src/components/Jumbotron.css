@@ -1,0 +1,29 @@
+/*!*@import url('https://fonts.googleapis.com/css?family=Playfair+Display');*!*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Oswald:600');
+
+.jumbotron.jumbotron-fluid {
+    background-color: #003399;
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    background-size: 100% auto;
+    color: white;
+    height: 400px;
+}
+
+.container.j-container {
+    /*border: 2px solid #0059b3;*/
+}
+
+h1, p {
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    margin-top: 100px;
+}
+p {
+
+}

@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import img from '../images/randomavatar.png';
+import img from '../images/photo.jpg';
+import './InfoBox.css';
+import Jumbotron from './Jumbotron';
 
 class InfoBox extends Component {
     render() {
         // const img = '../images/randomavatar.png';
+        // const textStyle = {
+        //     fontfamily: '"Playfair Display", serif'
+        // };
         return (
             <div className="container">
-                <div className="row">
+                <div className='jumbotron-fluid'>
 
-                    <div className="col-sm-4">
-                        <img src={img} width='200px;' height='200px' />
-                    </div>
-
-                    <div className="col-sm-8">
-                        <h2 className="text-primary">Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-                        <h2 className="text-primary">Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    </div>
+                <h4>
+                const loremipsum ='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+                </h4>
 
                 </div>
             </div>

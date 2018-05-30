@@ -1,0 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');*/
+/**/
+nav .navbar {
+    background-color: #005ce6;
+    color: white;
+}
+
+ul.nav a:hover {
+    background-color: #003399;
+    color: white;
+}
+li {
+    margin-top: 5px;
+    /*font-family: 'IBM Plex Serif', serif;*/
+    font-size: 15px;
+}
+
+.icon-temp {
+    height: 30px;
+    width: 30px;
+}

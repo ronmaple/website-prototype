@@ -1,0 +1,22 @@
+/*.container {*/
+    /*margin: auto;*/
+/*}*/
+
+/*div {*/
+    /*align-items: center;*/
+    /*display: flex;*/
+/*}*/
+
+h3 {
+    color: black;
+    margin-left: 60px;
+}
+
+#projects-icon {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+}

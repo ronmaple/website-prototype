@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar.jsx';
+import Jumbotron from '../components/Jumbotron.jsx';
+import './Home.css';
+import Projects from '../components/Projects.jsx';
 import InfoBox from '../components/InfoBox.jsx';
+
+//import Skills from '../components/Skills';
 
 class Home extends Component {
     render() {
@@ -8,14 +13,13 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
+                <Jumbotron title="Ron Mapue" subtitle='Web Developer'/>
                 <InfoBox />
+                <Projects />
+
 
                 <div className="container">
 
-                    {/*<h2>Welcome</h2>*/}
-                    {/*<p>*/}
-                        {/*{ loremipsum }*/}
-                    {/*</p>*/}
                 </div>
             </div>
         );
