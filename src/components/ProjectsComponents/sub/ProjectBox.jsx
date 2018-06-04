@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import proj from '../images/placeholder.png';
+import proj from '../placeholder.png';
+
 import './ProjectBox.css'
 
 class ProjectBox extends Component {
@@ -10,11 +11,11 @@ class ProjectBox extends Component {
            <div id="proj-container">
                 <div className="row">
                     <div className="col-xs-4">
-                        <img id="projects-icon" src={ proj } />
+                        <img id="projectsicon" src={ proj } />
                     </div>
                     <div className="col-xs-8">
                         <div className="proj-caption">
-                            <h3>Lorem Ipsum</h3>
+                            <h4>Lorem Ipsum</h4>
                             <h4 id='#lorem'>{ lorem }</h4>
                         </div>
                     </div>

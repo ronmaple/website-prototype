@@ -6,7 +6,7 @@ import dna from '../images/geneedit.png';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar" role="navigation">
+            <nav className="navbar navbar-default" role="navigation">
                 <div className="container">
 
                     <div className="navbar-header">
@@ -16,13 +16,13 @@ class Navbar extends Component {
                             <span className="icon-bar"></span>
                         </button>
                         <Link className="navbar-brand navbar-left" to="/">
-                            <img class='icon-temp' src={dna} />
+                            <img className='icon-temp' src={dna} />
                         </Link>
                     </div>
 
                     <div id="myNav" className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li className="active"><Link to="/">Home</Link></li>
+                            <li><Link to="/">Home</Link></li>
                             {/*<li><Link to="/projects">Projects</Link></li>*/}
                             <li><Link to="/experiences">Experiences</Link></li>
                             <li><Link to="/aboutme">About Me</Link></li>

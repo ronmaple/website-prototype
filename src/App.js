@@ -5,10 +5,13 @@ import './App.css';
 
 import Home from './pages/Home.jsx';
 
-import ProjectSection from './components/Projects';
+import ProjectSection from './components/ProjectsComponents/ProjectSection';
 import Experiences from './pages/Experiences';
 import Aboutme from './pages/Aboutme';
 
+import Experience from './components/ExperienceComponents/ExperienceList/Experience';
+import Experience2 from './components/ExperienceComponents/ExperienceList/Experience2';
+import Experience3 from './components/ExperienceComponents/ExperienceList/Experience3';
 
 class App extends Component {
   render() {
@@ -19,6 +22,10 @@ class App extends Component {
               <Route path='/projects' component={ ProjectSection } />
               <Route path='/experiences' component={ Experiences } />
               <Route path='/aboutme' component={ Aboutme } />
+
+              <Route exact path="/experiences/experience" component={ Experience } />
+              <Route path='/experiences/experience2' component={ Experience2 } />
+              <Route path='/experiences/experience3' component={ Experience3 } />
           </div>
         </Router>
     );

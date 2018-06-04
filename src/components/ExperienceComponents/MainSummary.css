@@ -1,0 +1,9 @@
+#mainSummary {
+    /*background-color: hsl(0, 0, 50%);*/
+    margin-left: 170px;
+    width: auto;
+    text-align: justify;
+}
+div#mainSummary.container {
+    background-color: hsl(0, 0%, 90%);
+}

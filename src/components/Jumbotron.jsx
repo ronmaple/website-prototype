@@ -8,7 +8,11 @@ class Jumbotron extends Component {
             <div className="jumbotron jumbotron-fluid">
                 <div className="container j-container text-center">
                     <h1 className="display-3">{this.props.title}</h1>
-                    <p className="lead">{this.props.subtitle}</p>
+                    <h1 style={{
+                        fontWeight: 200,
+                        fontSize: 20,
+                        marginTop: 0
+                    }}>{this.props.subtitle}</h1>
                 </div>
             </div>
         );

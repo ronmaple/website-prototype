@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 
 import Navbar from '../components/Navbar';
+import ExperiencesSection from '../components/ExperienceComponents/ExperiencesSection';
 
 class Experiences extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <h2>
-                    Experiences
-                </h2>
+                <ExperiencesSection />
             </div>
         )
     }

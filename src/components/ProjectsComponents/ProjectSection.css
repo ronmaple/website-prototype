@@ -20,3 +20,16 @@ h3 {
     width: 150px;
     border: 2px solid blue;
 }
+#projectsTitle {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: hsl(210, 80%, 20%);
+}
+
+#projsec-container {
+    margin-top: 40px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 1%;
+}

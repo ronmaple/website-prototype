@@ -1,0 +1,19 @@
+#lorem {
+    color: black;
+}
+
+#projectsicon {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5%;
+}
+#projectsicon:hover {
+    box-shadow: 5px 5px 5px 5px black /*#595959*/;
+}
+
+.proj-caption {
+    padding-top: 40px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
