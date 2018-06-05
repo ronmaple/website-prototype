@@ -6,7 +6,7 @@ class MainSummary extends Component {
     render() {
         return (
             <div>
-                               <h3 style={{
+                <h3 style={{
                     textAlign: "center",
                     fontWeight: 400,
                     fontSize: 30
