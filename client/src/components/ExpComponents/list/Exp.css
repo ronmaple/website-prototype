@@ -1,0 +1,8 @@
+.experience-box {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+.experience-box.container.container-exp {
+    width: 800px;
+}
